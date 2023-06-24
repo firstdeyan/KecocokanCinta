@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seberapa Cocok Kamu Sama Aku</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Kalkulator Kecocokan Cinta</h1>
+        <div class="question">
+            <p>Pertanyaan 1: Apakah kamu suka menghabiskan waktu bersama di luar ruangan?</p>
+            <input type="radio" name="q1" value="1">Lebih suka di dalam ruangan.
+            <input type="radio" name="q1" value="0">Ya, sangat suka!
+        </div>
+        <div class="question">
+            <p>Pertanyaan 2: Bagaimana pendapatmu tentang komitmen dalam hubungan?</p>
+            <input type="radio" name="q2" value="1">Aku siap untuk serius dan komitmen tinggi!
+            <input type="radio" name="q2" value="0">Lebih suka mengikuti aliran dan fleksibel.
+        </div>
+        <div class="question">
+            <p>Pertanyaan 3: Seberapa besar hasratmu akan petualangan dan tantangan?</p>
+            <input type="radio" name="q3" value="1">Lebih suka menjaga kestabilan dan rutinitas.
+            <input type="radio" name="q3" value="0">Aku sangat menyukainya dan selalu terbuka untuk mencoba hal baru!
+        </div>
+        <div class="question">
+            <p>Pertanyaan 4: Apakah kamu lebih suka menghabiskan waktu bersama pasangan atau sendiri?</p>
+            <input type="radio" name="q4" value="1">Aku menikmati kebersamaan dengan pasangan.
+            <input type="radio" name="q4" value="0">Aku juga butuh waktu sendiri untuk bersantai.
+        </div>
+        <div class="question">
+            <p>Pertanyaan 5: Bagaimana pendapatmu tentang mengelola keuangan dalam hubungan?</p>
+            <input type="radio" name="q5" value="1">Kita harus saling berbagi dan transparan dalam mengelola keuangan.
+            <input type="radio" name="q5" value="0">Lebih suka menjaga keuangan masing-masing.
+        </div>
+        <div class="question">
+            <p>Pertanyaan 6: Apakah kita memiliki nilai dan tujuan hidup yang serupa?</p>
+            <input type="radio" name="q6" value="1">Tentu saja! Kita memiliki visi yang sejalan.
+            <input type="radio" name="q6" value="0">Mungkin ada perbedaan nilai dan tujuan yang menarik.
+        </div>
+        <div class="question">
+            <p>Pertanyaan 7: Bagaimana pendapatmu tentang pentingnya komunikasi dalam hubungan?</p>
+            <input type="radio" name="q7" value="1">Komunikasi adalah kunci utama dalam hubungan yang sehat!
+            <input type="radio" name="q7" value="0">Aku lebih suka menjaga hal-hal sendiri tanpa banyak berkomunikasi.
+        </div>
+        <div class="question">
+            <p>Pertanyaan 8: Bagaimana sikapmu terhadap kebebasan pribadi dalam hubungan?</p>
+            <input type="radio" name="q8" value="1">Aku menghargai kebebasan pribadi pasangan.
+            <input type="radio" name="q8" value="0">Aku cenderung ingin tahu dan memiliki kontrol lebih.
+        </div>
+        <div class="question">
+            <p>Pertanyaan 9: Bagaimana kamu mengelola konflik dalam hubungan?</p>
+            <input type="radio" name="q9" value="1">Aku berusaha mencapai kesepakatan dan mencari solusi bersama.
+            <input type="radio" name="q9" value="0">Aku lebih suka menghindari konflik dan tidak terlalu terbuka.
+        </div>
+        <div class="question">
+            <p>Pertanyaan 10: Apakah kamu merasa nyaman dan percaya satu sama lain?</p>
+            <input type="radio" name="q10" value="1">Aku sangat nyaman dan percaya pada pasanganku.
+            <input type="radio" name="q10" value="0">Aku masih memiliki keraguan dan kekhawatiran.
+        </div>
+
+
+        <button onclick="calculateCompatibility()">Evaluasi</button>
+
+        <div id="result"></div>
+        <div id="interpretation"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
